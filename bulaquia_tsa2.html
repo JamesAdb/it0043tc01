@@ -1,48 +1,61 @@
-
-<div style="text-align: center;">National Dex <input type="text" name="name"></div>
+<div style="text-align: center;">National Dex: <input type="number" name="Name" min="0"></div>
 <br>
-
 <div style="text-align: center;">
-<input type="radio">Generation 1
-
-<input type="radio">Generation 2 
-
-<input type="radio">Generation 3 
-<input type="radio">Generation 4 
-<input type="radio">Generation 5 
-<input type="radio">Generation 6 
-<input type="radio">Generation 7 
-<input type="radio">Generation 8 
-<input type="radio">Generation 9 
-
+<input type="radio" id="1" name="generation" value=1> Generation 1
+<input type="radio" id="1" name="generation" value=1> Generation 2
+<input type="radio" id="1" name="generation" value=1> Generation 3
+<input type="radio" id="1" name="generation" value=1> Generation 4
+<input type="radio" id="1" name="generation" value=1> Generation 5
+<input type="radio" id="1" name="generation" value=1> Generation 6
+<input type="radio" id="1" name="generation" value=1> Generation 7
+<input type="radio" id="1" name="generation" value=1> Generation 8
+<input type="radio" id="1" name="generation" value=1> Generation 9
 </div>
-
 <br>
+<div style="text-align: center;">Pokemon Name: <input type="text" name="name"></div>
 <br>
 <div style="text-align: center;">
-    Pokemon Name <input type="text" name="name">
+<label for="image-upload">Upload Image:</label>
+<input type="file" id="image-upload" accept="image">
 </div>
 <br>
 <div style="text-align: center;">
-    <label for="image-upload">Image:</label>
-    <input type="file" id="image-upload" accept="image/*">
-</div>
+<label>Type 1:</label>
+<select name="type1">
+<option value=" "></option>
+<option value="normal">Normal</option>
+<option value="land">Land</option>
+<option value="grass">Grass</option>
+<option value="fighting">Fighting</option>
+<option value="Dragon">Dragon</option>
+<option value="Poison">Poison</option>
+<option value="Electric">Electric</option>
+</select>
+<label>Type 2:</label>
+<select name="type2">
+<option value=" "></option>
+<option value="normal">Normal</option>
+<option value="land">Land</option>
+<option value="grass">Grass</option>
+<option value="fighting">Fighting</option>
+<option value="Dragon">Dragon</option>
+<option value="Poison">Poison</option>
+<option value="Electric">Electric</option>
+</select>
 <br>
-<div style="text-align: center;">Type 1 <input type="text" name="name"> Type 2 <input type="text" name="name"></div> 
 <br>
-<div style="text-align: center;">Nickname <input type="text" name="name"></div>
+<div style="text-align: center;">Evolves From: <input type="text" name="Name"> Evolves to: <input type="text" name="Name"></div>
 <br>
+<div style="text-align: center;">Nickname: <input type="text" name="name"></div>
+<br> 
 <div style="text-align: center;">
-    <label for="birthday">Birthday:</label>
-    <input type="date" id="birthday" name="birthday">
-</div>
-<br>
-<div style="text-align: center;">
-    <button>Submit</button>
-</div>
-<br>
+<label for="Birthday">Birthday:</label>
+<input type="date" name="Birthday" id="Birthday"></div>
+<br> 
+    <div style="text-align: center;">
+    <button>Submit</button></div>
 <table border="1" align = "center">
-    
+   
    
     <tr>
       <th>National Dex</th>
@@ -55,127 +68,127 @@
       <th>Evolves To</th>
       <th>Nickname</th>
       <th>Birthday</th>
-
+ 
     </tr>
-
+ 
     <tr>
-      <th>1</th>
+      <th>#6969</th>
       <td>Generation 1</td>
-      <td>Me</td>
+      <td>James Bulaquia</td>
       <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
+      <td>Koreana</td>
+      <td>Chinita</td>
+      <td>Fat</td>
+      <td>Fit</td>
+      <td>Pogi</td>
+      <td>08-18-2004</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>#0376</th>
       <td>Generation 1</td>
       <td>Metagross</td>
       <td><img src="https://archives.bulbagarden.net/media/upload/thumb/f/fe/0376Metagross.png/70px-0376Metagross.png" alt=""></td>
       <td bgcolor="#60A1B8">Steel</td>
       <td bgcolor="#EF4179">Psychic</td>
-      <td></td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
+      <td> Metang</td>
+      <td>Beldum</td>
+      <td>Iron Leg Pokémon</td>
+      <td>02-01-2011</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>#0448</th>
       <td>Generation 1</td>
       <td>Lucario</td>
       <td> <img src="https://archives.bulbagarden.net/media/upload/thumb/4/42/0448Lucario.png/70px-0448Lucario.png" alt=""></td>
-      <td>Fighting</td>
-      <td>Steel</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
-      <td>Data</td>
+      <td bgcolor="#FF8000">Fighting</td>
+      <td bgcolor="#60A1B8">Steel</td>
+      <td>Riolu</td>
+      <td>Lucario</td>
+      <td>Aura Pokémon</td>
+      <td>23-07-900</td>
     </tr>
     <tr>
-        <th>4</th>
+        <th>#0445</th>
         <td>Generation 1</td>
         <td>Garchomp</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/a/a8/0445Garchomp.png/70px-0445Garchomp.png" alt=""></td>
-        <td>Dragon</td>
-        <td>Ground</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#5060E1">Dragon</td>
+        <td bgcolor="#915121">Ground</td>
+        <td>Gabite</td>
+        <td>Gible</td>
+        <td>Mach Pokémon</td>
+        <td>05-06-2009</td>
       </tr>
       <tr>
-        <th>5</th>
+        <th>#0635</th>
         <td>Generation 1</td>
         <td>Hydreigon</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/9/92/0635Hydreigon.png/70px-0635Hydreigon.png" alt=""></td>
-        <td>Dark</td>
-        <td>Dragon</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#624D4E">Dark</td>
+        <td bgcolor="#5060E1">Dragon</td>
+        <td>Zweilous</td>
+        <td>Deino</td>
+        <td>Brutal Pokémon</td>
+        <td>04-09-1002</td>
       </tr>
       <tr>
-        <th>6</th>
+        <th>#0069</th>
         <td>Generation 1</td>
         <td>Bellsprout</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/6/66/0069Bellsprout.png/70px-0069Bellsprout.png" alt=""></td>
-        <td>Grass</td>
-        <td>Poison</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#3FA129">Grass</td>
+        <td bgcolor="#9141CB">Poison</td>
+        <td>Weepinbell</td>
+        <td>Victreebel</td>
+        <td>Flower Pokémon</td>
+        <td>21-5-2003</td>
       </tr>
       <tr>
-        <th>7</th>
+        <th>#0248</th>
         <td>Generation 1</td>
         <td>Tyranitar</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/0/09/0248Tyranitar.png/70px-0248Tyranitar.png" alt=""></td>
-        <td>Rock</td>
-        <td>Dark</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#AFA981">Rock</td>
+        <td bgcolor="#624D4E">Dark</td>
+        <td>Pupitar</td>
+        <td>Larvitar</td>
+        <td>Armor Pokémon</td>
+        <td>12-9-2001</td>
       </tr>
       <tr>
-        <th>8</th>
+        <th>#0094</th>
         <td>Generation 1</td>
         <td>Gengar</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/47/0094Gengar.png/70px-0094Gengar.png" alt=""></td>
-        <td>Ghost</td>
-        <td>Poison</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#704170">Ghost</td>
+        <td bgcolor="#9141CB">Poison</td>
+        <td>Haunter</td>
+        <td>Gastly</td>
+        <td>Shadow Pokémon</td>
+        <td>09-03-1991</td>
       </tr>
       <tr>
-        <th>9</th>
+        <th>#0142</th>
         <td>Generation 1</td>
         <td>Aerodactyl</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/2/2c/0142Aerodactyl.png/70px-0142Aerodactyl.png" alt=""></td>
-        <td>Rock</td>
-        <td>Flying</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#AFA981">Rock</td>
+        <td bgcolor="#81B9EF">Flying</td>
+        <td>Aerodactyl</td>
+        <td>Mega Aerodactyl</td>
+        <td>Fossil Pokémon</td>
+        <td>09-09-2009</td>
       </tr>
       <tr>
-        <th>10</th>
+        <th>#0149</th>
         <td>Generation 1</td>
         <td>Dragonite</td>
         <td><img src="https://archives.bulbagarden.net/media/upload/thumb/1/1c/0149Dragonite.png/70px-0149Dragonite.png" alt=""></td>
-        <td>Dragon</td>
-        <td>Flying</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
+        <td bgcolor="#5060E1">Dragon</td>
+        <td bgcolor="#81B9EF">Flying</td>
+        <td>Dragonair</td>
+        <td>Dratini</td>
+        <td>Kairyu</td>
+        <td>09-01-1721</td>
       </tr>
   </table>
