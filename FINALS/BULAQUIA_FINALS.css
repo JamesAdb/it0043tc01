@@ -1,0 +1,580 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s ease;
+    scroll-behavior: smooth;
+}
+#MYWORKS{
+    margin-top: 50px;
+    margin-bottom: -90px;
+    font-size: 40px;
+}
+#bgcpic3{
+    background-position: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 2%;
+    margin-top: 1rem;   
+}
+#parpic4{
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 2%;
+    margin-top: 10px;   
+}
+.naviConElements {
+    display: none;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naviConElements {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #E2DEEF;
+    position: relative;
+}
+
+.topnav #personal {
+    display: none;
+}
+
+.topnav a {
+    color: rgb(156, 27, 87);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.pili a {
+    color: black;
+}
+
+.topnav a.icon {
+    background: rgb(247, 136, 188);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.lgoahhfit {
+    background-color: #50C878;
+    color: rgb(156, 27, 87);
+}
+
+.topNavi {
+    background-color: #c3b091;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    transition: top 1s;
+}
+
+.topNavi .mainContainer {
+    color: black;
+    padding: 13px 0;
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+.logoSection{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainMenu {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s all ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+li>a:hover {
+    color: rgb(105, 101, 235);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.mainContainer {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.aaContainer {
+    width: 0 auto;
+    padding: 20px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.welcScreen {
+    background-image: url("gtrlv.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    width: 120vw;
+    border: 10px;
+    margin: 0px 20px auto;
+    padding: 10px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: left;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+.TOPIC{
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.welc1 {
+    height: 400px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    font-size: 3rem;
+    font-weight: 750px;
+    color: #ded4c2;
+    margin-left: 550px;
+    width: 100%; 
+    text-align: center;
+}
+.greet-ahhfit {
+    font-size: 2.7rem;
+    font-weight: 1;
+}
+
+.iconEdit {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: #c3b091;
+    color: white;
+    margin-left: 1200px;
+}
+
+.instagram {
+    background-color: #c3b091;
+    color: white;
+    margin-right: 4px;
+}
+
+
+.facebook:hover {
+    box-shadow: 0 0 10px #0d05e3;
+}
+
+.instagram:hover {
+    box-shadow: 0 0 10px #f14897;
+}
+
+#srt1 {
+    color: black;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.welcome-msg {
+    padding-left: 10px;
+    text-align: justify;
+}
+
+
+.b111:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+    box-shadow: 0 0 8px grey;
+}
+
+a {
+    text-decoration: none;
+    color: #2f6b2f;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+body .about {
+    width: 0 auto;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.aboutSection {
+   background-color:  #c3b091;
+    width: 100vw;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    line-height: 2rem;
+    padding-bottom: 30px;
+}
+
+.header-abt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 90px;
+}
+
+#favvko-imgs {
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 2%;
+    margin-top: 1rem;   
+    max-width: 50%;
+}
+
+.hobby {
+    width: 23%;
+    border-radius: 1rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.aboutinfo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+}
+
+.favvko-infoos {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.gym:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 30px black;
+}
+
+.music:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 30px #000000;
+}
+
+.games:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 30px #000000;
+}
+
+.cars:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 30px #000000;
+}
+
+.aboutSection2 {
+    max-width: 95vw;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.abtpc2 {
+    border-radius: 1rem;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.HOMEPC{
+    align-items: center;
+}
+
+
+.infooo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 2rem;
+}
+
+#favvko-imgs2 {
+    width: 70%;
+}
+
+.abtme-infoos {
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.header-works {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding: 0.8rem 0;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+body .feedbSection {
+    width: 0 auto;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #c3b091;
+}
+
+main .feedback {
+    width: 95vw;
+    margin: 0 auto;
+
+}
+
+.fbSecCustom {
+    background-color: #ffffff;
+    padding: 20px 30%;
+    border-radius: 20px;
+}
+
+main .fbSecCustom {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    line-height: 1.5;
+    justify-content: space-between;
+    padding: 0% 30%;
+    margin-top: 30px;
+}
+
+.feedback-deets {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.Contact-ttl {
+    text-decoration: underline;
+}
+
+.fbText {
+    color: black;
+    text-align: center;
+}
+
+.works-item {
+    background-color: #c3b091;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.works-item:hover {
+    background-color: #f93c3c;
+}
+
+.works-item a {
+    color: white;
+    text-decoration: none;
+}
+.works-container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+@media(max-width: 850px) {
+    .welcScreen {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #srt1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .aboutSection2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #favvko-imgs2 {
+        width: 40%;
+    }
+
+    .favvko {
+        width: 45%;
+        border-radius: 1rem;
+        text-align: center;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    .topNavi .container {
+        flex-wrap: wrap;
+    }
+
+    #image-fave {
+        width: 35%;
+    }
+
+    .who-images {
+        gap: 10px;
+    }
+    .fbSecCustom {
+        padding: 20px 15%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .aaContainer{
+        padding-top: 30px;
+    }
+    .welcScreen {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .welc1 {
+        height: 200px;
+    }
+
+    #srt1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .topNavi {
+        display: none;
+    }
+
+    .naviConElements {
+        display: contents;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        line-height: 2rem;
+    }
+
+    .welcScreen {
+        padding-top: 80px;
+    }
+
+    .fbSecCustom {
+        padding: 20px 8%;
+    }
+
+    .welcScreen {
+        padding-top: 15px;
+    }
+}
+.contact-container{
+    max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
